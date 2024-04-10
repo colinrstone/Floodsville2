@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{a934ffae-f778-4e07-9465-5de056d090ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{82916e0a-5dcf-4460-8408-61677b9b8aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{c85f15a6-94dc-4391-a3ac-f14252059b2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{fc64e70f-dfcb-416a-9f9c-ff656fb57a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Title">
+      <UniqueIdentifier>{ec5b7392-9aab-4d7f-b49d-7c3ecbb492e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Title">
+      <UniqueIdentifier>{70bc1bfe-96d5-4b3f-ac3e-09fe5900959a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Title\Main Menu">
+      <UniqueIdentifier>{91e6a7fb-4693-49eb-89d4-6c58c32cc9ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Title\Play Screen">
+      <UniqueIdentifier>{2432003f-229a-426a-a5c8-b46114e79381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Title\Main Menu">
+      <UniqueIdentifier>{3599ca4a-a5cf-4cd0-b075-3348db5d1c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Title\Play Screen">
+      <UniqueIdentifier>{5d70ee15-69d6-466e-9256-c2d032211017}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AssetManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedTexture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundStars.h">
+      <Filter>Header Files\Game Title\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>Header Files\Game Title\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="StarLayer.h">
+      <Filter>Header Files\Game Title\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game Title\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Header Files\Game Title\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEntity2.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScreen2.h">
+      <Filter>Header Files\Game Title\Main Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Header Files\Game Title\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScreen.h">
+      <Filter>Header Files\Game Title\Play Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files\Game Title\Play Screen</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedTexture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundStars.cpp">
+      <Filter>Source Files\Game Title\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>Source Files\Game Title\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="StarLayer.cpp">
+      <Filter>Source Files\Game Title\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Title\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Proj4\Proj4\GameEntity2.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScreen2.cpp">
+      <Filter>Source Files\Game Title\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Source Files\Game Title\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Documents\Visual Studio 2022\My Exported Templates\RTS Game\Scoreboard.cpp">
+      <Filter>Source Files\Game Title\Play Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScreen.cpp">
+      <Filter>Source Files\Game Title\Main Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>Source Files\Game Title\Play Screen</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
